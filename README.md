@@ -10,5 +10,5 @@ no raspberry py use o comando:
 
 <br>
 sudo apt-get update
-#
+<br>
 sudo apt-get install wkhtmltopdf
