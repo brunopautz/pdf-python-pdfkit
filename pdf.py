@@ -18,6 +18,7 @@ def create_pdf():
 
     '''
         busca diretorio COMPLETO onde esta o template
+        MUDE PARA O SEU DIRETORIO
     '''
     env = Environment(loader=FileSystemLoader('/usr/local/bin/w-termocenter-python/pdf/template'))
 
@@ -54,6 +55,7 @@ def create_pdf():
     o nome do arquivo pode ser dinamico
     basta trocar o relatorio.pdf
     pelo nome que desejar
+    MUDE PARA O SEU DIRETORIO 
 '''
 def save_pdf(arquivo):
     with open('/usr/local/bin/w-termocenter-python/pdf/relatorio/relatorio.pdf', 'wb+') as file:
